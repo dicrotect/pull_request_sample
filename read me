@@ -30,3 +30,13 @@
 1. Github上で（もしくはlog上）でcommitのハッシュをコピー
 2. `git checkout ハッシュ`コマンドで指定したcommitへもどる
 3. `git checkout ブランチ名`コマンドで最新のコマンドにもどる
+
+###別ブランチのcommitをマスターブランチに追加
+1. 別ブランチでのcommitを変更しきる
+2. git log --onelineでcommitのハッシュを見る
+3. `git checked master`でmasterブランチに移動
+4. `git cherry-pickハッシュ`で別ブランチのcommitをmasterへ追加
+
+###ローカルブランチの削除
++ `git branch -d ブランチ名`
++ もしerrorがでたら`git branch -D ブランチ名`で強制削除も化
