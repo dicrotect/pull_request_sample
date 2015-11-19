@@ -15,14 +15,14 @@ GithubのREADMEファイルはGithubマークダウン記法を使って記述�
 9. `git push -u origin master`コマンドで保存したソースコードをリモートへ送る
 
 ##pullの流れ
-1.リモートリポジトリをローカルにあげる
-2.`git pull origin master`コマンドでリモート上の最新リポジトリをローカルに持ってくる
+1. リモートリポジトリをローカルにあげる
+2. `git pull origin master`コマンドでリモート上の最新リポジトリをローカルに持ってくる
 
 ## Pull Requestの流れ
-1.`git checkout -b ブランチ名 `コマンドで新規ブランチを確作成（同時にブラウザの切り替えを行ってくれる）
-2.何かしらのupdateをする
-3.`git add `.`git commit -m`の順で保存する
-4.`git push origin 新しいブランチ名`コマンド上に新しいブランチを作成してpush
+1. `git checkout -b ブランチ名 `コマンドで新規ブランチを確作成（同時にブラウザの切り替えを行ってくれる）
+2. 何かしらのupdateをする
+3. `git add `.`git commit -m`の順で保存する
+4. `git push origin 新しいブランチ名`コマンド上に新しいブランチを作成してpush
 5. Github上でpullrequestをマージ
 6. 管理者がrequestをレビューする
 7. 問題があれば差戻す
