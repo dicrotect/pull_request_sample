@@ -11,6 +11,13 @@
 2.何かしらのupdateをする
 3.`git add `.`git commit -m`の順で保存する
 4.`git push origin 新しいブランチ名`コマンド上に新しいブランチを作成してpush
+5. Github上でpullrequestをマージ
+6. 管理者がrequestをレビューする
+7. 問題があれば差戻す
+8. 再度問題を修正し`add` `commit` `push`で修正内容を pull reqに上書きして送る
+    + pull req中に同じブランチに修正内容をpullするとそれだけで修正内容がpull reqにのっかる
+9. 修正内容を確認しmargeする
+10. ブランチを削除する
 
 ###ブランチの切り替え方
 + `git checkout ブランチ名` コマンドでブランチを行き来できる
